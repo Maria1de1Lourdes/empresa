@@ -5,16 +5,12 @@ st.image(
     link="https://www.gucci.com/int/en/st/brazil-landing",
     width=750
 )
-<br>
 st.write("Maria de Lourdes de Freitas Almeida")
-<br>
 st.image(
         "Foto.jpg",
          width=320
         )
-<br>
 st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
-<br>
 
 st.image(
     "whatsapp.png",
