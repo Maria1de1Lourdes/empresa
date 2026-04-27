@@ -16,7 +16,7 @@ st.image(
     width=400
 )
 st.image(
-    "QRcode.png"
+    "QRcode.png",
     width=400
 )
 st.markdown(
