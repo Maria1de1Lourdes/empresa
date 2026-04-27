@@ -3,7 +3,7 @@ st.image(
     "gucci.png",
     caption="Clique para esplorar a página da GUCCI.",
     link="https://www.gucci.com/int/en/st/brazil-landing",
-    width=1000
+    width=750
 )
 st.write("Maria de Lourdes de Freitas Almeida")
 st.image("Foto.jpg")
@@ -13,7 +13,7 @@ st.image(
     "whatsapp.png",
     caption="Clique para nos contatar via Whatsapp.",
     link="https://w.app/gucci",
-    width=1000
+    width=680
 )
 st.image("QRcode.png")
 st.markdown(
