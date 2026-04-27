@@ -1,35 +1,9 @@
 import streamlit as st
-st.image(
-    "gucci.png",
-    caption="Clique para esplorar a página da GUCCI.",
-    link="https://www.gucci.com/int/en/st/brazil-landing",
-    width=750
-)
+st.image("gucci.png")
 st.write("Maria de Lourdes de Freitas Almeida")
-st.image(
-        "Foto.jpg",
-         width=320
-        )
+st.image("Foto.jpg")
 st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
-
-st.image(
-    "whatsapp.png",
-    caption="Clique para nos contatar via Whatsapp.",
-    link="https://w.app/gucci",
-    width=400
-)
-st.image(
-    "QRcode.png",
-    width=400
-)
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #2E3135;
-        text-color: #FFFFFF;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+st.link_button("Site da empresa","https://www.gucci.com/int/en/st/brazil-landing")
+st.image("whatsapp.png")
+st.link_button("Contato por whatsapp","https://w.app/gucci")
+st.image("QRcode.png")
