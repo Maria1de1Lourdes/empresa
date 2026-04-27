@@ -1,5 +1,10 @@
 import streamlit as st
-st.image("gucci.png")
+st.image(
+    "gucci.png",
+    caption="Clique para esplorar a página da GUCCI.",
+    link="https://www.gucci.com/int/en/st/brazil-landing",
+    width=200
+)
 st.write("Maria de Lourdes de Freitas Almeida")
 st.image("Foto.jpg")
 st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
