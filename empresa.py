@@ -6,8 +6,14 @@ st.image(
     width=750
 )
 st.write("Maria de Lourdes de Freitas Almeida")
-st.image("Foto.jpg")
-st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
+st.image(
+        "Foto.jpg",
+         width=320
+        )
+st.write(
+    "Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.",
+        border=2px ,solid ,white
+        )
 
 st.image(
     "whatsapp.png",
