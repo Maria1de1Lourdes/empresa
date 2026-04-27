@@ -13,9 +13,12 @@ st.image(
     "whatsapp.png",
     caption="Clique para nos contatar via Whatsapp.",
     link="https://w.app/gucci",
-    width=680
+    width=400
 )
-st.image("QRcode.png")
+st.image(
+    "QRcode.png"
+    width=400
+)
 st.markdown(
     """
     <style>
