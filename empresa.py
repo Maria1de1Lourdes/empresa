@@ -3,14 +3,18 @@ st.image(
     "gucci.png",
     caption="Clique para esplorar a página da GUCCI.",
     link="https://www.gucci.com/int/en/st/brazil-landing",
-    width=200
+    width=1000
 )
 st.write("Maria de Lourdes de Freitas Almeida")
 st.image("Foto.jpg")
 st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
-st.link_button("Site da empresa","https://www.gucci.com/int/en/st/brazil-landing")
-st.image("whatsapp.png")
-st.link_button("Contato por whatsapp","https://w.app/gucci")
+
+st.image(
+    "whatsapp.png",
+    caption="Clique para nos contatar via Whatsapp.",
+    link="https://w.app/gucci",
+    width=1000
+)
 st.image("QRcode.png")
 st.markdown(
     """
