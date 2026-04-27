@@ -10,10 +10,7 @@ st.image(
         "Foto.jpg",
          width=320
         )
-st.write(
-    "Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.",
-        border=1 ,solid ,white
-        )
+st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
 
 st.image(
     "whatsapp.png",
@@ -30,6 +27,7 @@ st.markdown(
     <style>
     .stApp {
         background-color: #2E3135;
+        text-color: #FFFFFF;
     }
     </style>
     """,
