@@ -12,7 +12,7 @@ st.image(
         )
 st.write(
     "Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.",
-        border=2px ,solid ,white
+        border=1 ,solid ,white
         )
 
 st.image(
