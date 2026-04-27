@@ -7,5 +7,13 @@ st.link_button("Site da empresa","https://www.gucci.com/int/en/st/brazil-landing
 st.image("whatsapp.png")
 st.link_button("Contato por whatsapp","https://w.app/gucci")
 st.image("QRcode.png")
-st.background_color: Black
-
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f2f6;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
