@@ -1,7 +1,6 @@
 import streamlit as st
 st.image(
     "gucci.png",
-    caption="Clique para esplorar a página da GUCCI.",
     link="https://www.gucci.com/int/en/st/brazil-landing",
     width=750
 )
@@ -14,7 +13,6 @@ st.write("Tenho mestrado em Design e em administração, fui contratada pela Guc
 
 st.image(
     "whatsapp.png",
-    caption="Clique para nos contatar via Whatsapp.",
     link="https://w.app/gucci",
     width=400
 )
