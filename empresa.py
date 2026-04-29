@@ -1,6 +1,7 @@
 import streamlit as st
 st.image(
     "gucci.png",
+    caption="Acesse a Página da GUCCI por aqui",
     link="https://www.gucci.com/int/en/st/brazil-landing",
     width=750
 )
