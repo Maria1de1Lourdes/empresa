@@ -10,10 +10,11 @@ st.image(
         "Foto.jpg",
          width=320
         )
-st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada.")
+st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada. Atualmente faço parte na modelagem dos sites.")
 
 st.image(
     "whatsapp.png",
+    caption="Acesse o whattsapp oficial da GUCCI por aqui",
     link="https://w.app/gucci",
     width=400
 )
