@@ -2,7 +2,6 @@ import streamlit as st
 st.image(
     "gucci.png",
     caption="Acesse a Página da GUCCI por aqui",
-    link="https://www.gucci.com/int/en/st/brazil-landing",
     width=750
 )
 st.write("Maria de Lourdes de Freitas Almeida")
@@ -15,13 +14,13 @@ st.write("Tenho mestrado em Design e em administração, fui contratada pela Guc
 st.image(
     "whatsapp.png",
     caption="Acesse o whattsapp oficial da GUCCI por aqui",
-    link="https://w.app/gucci",
     width=400
 )
 st.image(
     "QRcode.png",
     width=400
 )
+st.button("acesse aqui")
 st.markdown(
     """
     <style>
