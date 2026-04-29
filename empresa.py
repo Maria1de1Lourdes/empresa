@@ -8,4 +8,4 @@ st.write("Tenho mestrado em Design e em administração, fui contratada pela Guc
 
 st.image("whatsapp.png")
 st.image("QRcode.png")
-st.button("acesse aqui o whatsapp","link="https://w.app/gucci")
+st.link_button("acesse aqui o whatsapp","link="https://w.app/gucci")
