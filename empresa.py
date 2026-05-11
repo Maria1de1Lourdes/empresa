@@ -56,7 +56,7 @@ with col_left:
     st.markdown("</div>", unsafe_allow_html=True)
 with col_right:
     st.empty()
-st.markdown(f"""
+    st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
         <a href="link="https://w.app/gucci" target="_blank">
             <img src="data:image/png;base64,{zap_base64}" width="100">
