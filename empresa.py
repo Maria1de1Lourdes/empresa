@@ -66,7 +66,7 @@ with col_right:
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 50px;">
                 <img src="data:image/png;base64,{img2_base64}"
-                     width="320"
+                     width="100"
                      style="border-radius:12px;">
         </div>
      """, unsafe_allow_html=True)
