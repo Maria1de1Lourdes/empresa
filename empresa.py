@@ -7,6 +7,7 @@ def get_base64_image(path):
         return base64.b64encode(img_file.read()).decode()
 img_base64 = get_base64_image("gucci.png")
 zap_base64 = get_base64_image("whatsapp.png")
+img2_base64=get_base64_image("QRcode.png")
  
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
@@ -35,12 +36,8 @@ with col_left:
             height: 100%;
         ">
         """, unsafe_allow_html=True)
- 
         st.image("Foto.jpg", width=800)
- 
         st.markdown("</div>", unsafe_allow_html=True)
- 
-    # TEXTO
     with subcol2:
         st.markdown("""
         <div style="
@@ -54,33 +51,25 @@ with col_left:
            Maria de Lourdes de Freitas Almeida é uma  participante do curso profissionalizante de informática, sendo uma das pioneiras desse curso no instituto IFPB de Itabaiana.
         </div>
         """, unsafe_allow_html=True)
- 
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar", )
+    st.link_button("Acessar","link="https://www.gucci.com/int/en/st/brazil-landing" )
     st.markdown("</div>", unsafe_allow_html=True)
- 
 with col_right:
     st.empty()
- 
-# �� NOVO BLOCO (WhatsApp clicável no final)
 st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
-        <a href="https://wa.me/5583998234415" target="_blank">
+        <a href="link="https://w.app/gucci" target="_blank">
             <img src="data:image/png;base64,{zap_base64}" width="100">
         </a>
     </div>
-""", unsafe_allow_html=True)
+     """, unsafe_allow_html=True)
+    st.markdown(f"""
+        <div style="text-align: center; margin-bottom: 50px;">
+                <img src="data:image/png;base64,{img2_base64}"
+                     width="320"
+                     style="border-radius:12px;">
+        </div>
+     """, unsafe_allow_html=True)
 
+    
 
-
-st.image("gucci.png")
-st.write("Maria de Lourdes de Freitas Almeida")
-st.image(
-        "Foto.jpg",
-         width=320
-        )
-st.write("Tenho mestrado em Design e em administração, fui contratada pela Gucci após uma entrevista acirrada. Atualmente faço parte na modelagem dos sites.")
-
-st.image("whatsapp.png")
-st.image("QRcode.png")
-st.link_button("acesse aqui o whatsapp","link="https://w.app/gucci")
