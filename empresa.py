@@ -52,7 +52,7 @@ with col_left:
         </div>
         """, unsafe_allow_html=True)
     st.markdown("<div style='margin-top:30px;'>", unsafe_allow_html=True)
-    st.link_button("Acessar","link="https://www.gucci.com/int/en/st/brazil-landing")
+    st.link_button("Acessar","https://www.gucci.com/int/en/st/brazil-landing")
     st.markdown("</div>", unsafe_allow_html=True)
 with col_right:
     st.empty()
