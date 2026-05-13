@@ -1,14 +1,12 @@
 import streamlit as st
-
 import base64
-st.set_page_config(page_title="Perfil da Gucci", layout="wide",background_color="black")
+st.set_page_config(page_title="Perfil da Gucci", layout="wide")
 def get_base64_image(path):
     with open(path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 img_base64 = get_base64_image("gucci.png")
 zap_base64 = get_base64_image("whatsapp.png")
-img2_base64=get_base64_image("QRcode.png")
- 
+img2_base64=get_base64_image("QRcode.png") 
 col1, col2, col3 = st.columns([1,2,1])
 with col2:
     st.markdown(f"""
@@ -70,6 +68,3 @@ with col_right:
                      style="border-radius:12px;">
         </div>
      """, unsafe_allow_html=True)
-
-    
-
