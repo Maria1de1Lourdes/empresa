@@ -60,6 +60,7 @@ with col_right:
             <img src="data:image/png;base64,{zap_base64}" width="100">
         </a>
     </div>
+    <br>
      """, unsafe_allow_html=True)
     st.markdown(f"""
         <div style="text-align: center; margin-bottom: 50px;">
