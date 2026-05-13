@@ -56,7 +56,7 @@ with col_right:
     st.empty()
     st.markdown(f"""
     <div style="text-align: center; margin-top: 10px;">
-        <a href="link="https://wa.me/5583991140852" target="_blank">
+        <a href="link="https://api.whatsapp.com/send/?phone=5583991140852&text&type=phone_number&app_absent=0" target="_blank">
             <img src="data:image/png;base64,{zap_base64}" width="100">
         </a>
     </div>
